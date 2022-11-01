@@ -1,0 +1,24 @@
+div.nav_position {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  color: #00277e;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-top: 15px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  font-size: large;
+  font-weight: bold;
+  color: #00277e;
+}
