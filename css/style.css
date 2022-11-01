@@ -1,46 +1,51 @@
+/* header */
 .nav_position {
   display: flex;
   justify-content: space-between;
 }
-h1 {
+.title {
   color: #00277e;
 }
-ul {
+.menu {
   display: flex;
   flex-direction: row;
   list-style: none;
   padding-top: 15px;
 }
-a {
+.menu_link {
   color: inherit;
   text-decoration: none;
 }
-li {
+.menu_list {
   margin-left: 3rem;
   margin-right: 1rem;
   font-size: large;
   font-weight: bold;
   color: #00277e;
 }
-h2 {
+/* main */
+.parents {
+  position: relative;
+}
+.first {
+  position: absolute;
+  margin-top: 40vh;
+}
+.concept_text {
   font-size: 80px;
   font-weight: 100;
-  margin-top: 25rem;
-  /* display: inline; */
 }
-.relative {
-  position: relative;
-  top: 50px;
-  right: 50px;
-}
-.blue_box {
-  width: 1300px;
-  height: 400px;
-  background-color: #00277e;
-  margin-top: -130px;
-}
-.absolute_img {
+.second {
   position: absolute;
-  top: -400px;
-  left: 940px;
+  top: 8vh;
+  right: 0;
+}
+.third {
+  position: absolute;
+  bottom: 0;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  color: #00277e;
 }
