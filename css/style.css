@@ -30,6 +30,7 @@
 .first {
   position: absolute;
   margin-top: 40vh;
+  z-index: -10;
 }
 .concept_text {
   font-size: 80px;
@@ -39,13 +40,14 @@
   position: absolute;
   top: 8vh;
   right: 0;
+  z-index: 10;
 }
 .third {
-  position: absolute;
-  bottom: 0;
-}
-.box {
-  width: 100px;
-  height: 100px;
-  color: #00277e;
+  position: fixed; /* 要素の位置を固定する */
+  bottom: 0; /* 基準の位置を画面の一番下に指定する */
+  left: 0; /* 基準の位置を画面の一番右に指定する */
+  z-index: 0;
+  width: 60vw;
+  height: 25%;
+  background-color: #00277e;
 }
